@@ -245,6 +245,31 @@ p {
 	min-width: 250px;
 	border-radius: 20px 20px 0 0;
 }
+.cardb2 {
+	display: block;
+	width: 30%;
+	height: 350px;
+	min-width: 250px;
+	min-height: 300px;
+	background-color: var(--grey2);
+	margin: 20px;
+	transition: 0.3s;
+	border-radius: 20px;
+	text-align: left;
+}
+.cardb2:hover {
+	background-color: var(--grey3);
+	transition: 0.3s;
+	box-shadow: 0px 0px 10px 7px #51cfa2FF, 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardb2:hover h4 {
+	color: var(--teal3);
+	transition: 0.3s;
+}
+.cardb2:hover p {
+	color: var(--white);
+	transition: 0.3s;
+}
 
 .cardc {
 	display: block;
@@ -295,6 +320,27 @@ p {
 }
 .cardd:hover h4 {
 	color: var(--white);
+	transition: 0.3s;
+}
+.carde {
+	width: 300px;
+	height: 70px;
+	border-radius: 20px;
+	background-color: var(--grey2);
+	margin: -20px 0px 0px 0px;
+	transition: 0.3s;
+}
+.carde h2 {
+	padding: 10px 0px 0px 0px;
+	transition: 0.3s;
+}
+.carde:hover {
+	background-color: var(--grey3);
+	transition: 0.3s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carde:hover h2 {
+	color: var(--teal3);
 	transition: 0.3s;
 }
 
